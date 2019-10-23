@@ -1,0 +1,1 @@
+java -jar problem1.jar

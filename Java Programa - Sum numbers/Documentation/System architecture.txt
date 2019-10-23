@@ -1,0 +1,20 @@
+SYSTEM ARCHITECTURE
+
+Source code
+
+TraianAlimentiBel_Problem_1
++---src
+¦    +---main
+¦    ¦   +---java        
+¦    ¦       +---java_programming_exam1
+¦    ¦           +---ConsoleFunctions
+¦    ¦               +---ReadFromConsole.java
+¦    ¦           +---FileFunctions
+¦    ¦               +---CheckTypeOfFile.java
+¦    ¦               +---ReadFile.java
+¦    ¦           +---PrintFunctions
+¦    ¦               +---Header.java
+¦    ¦               +---PrintResult.java
+¦    ¦           +---App.java //main app
+¦    ¦
++---pom.xml

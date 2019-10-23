@@ -1,0 +1,45 @@
+TECHNICAL DESCRPTION
+
+\App.java
+-main(String[] args)
+Main application of the program.
+Call the choosefile () method of the ReadFromConsole class that allows 
+the user to choose the plain text file and loop until a suitable file 
+with the program requirements is chosen.
+Once a suitable file has been chosen, call the print(path) method 
+of the PrintResult class to obtain the result and display it by console.
+
+
+\Console\ReadFromConsole.java
+-String chooseFile()
+This method asks the user for the file path or the manual selection
+of the file and return it's path.
+
+
+\FileFunctions\CheckTypeOfFile.java
+-boolean check (String path)
+This method receives a path and returns true if the file exists and 
+if it is plain text or false otherwise.
+
+\FileFuncionts\ReadFile.java
+-Iterator<Number> read (String path)
+This method receives the path to the selected file and returns 
+an iterator with all the file's numbers inside.
+
+
+\PrintFunctions\Header.java
+-printHeader (String problemnumber)
+Print the program header. Receives by parameter the number of the 
+problem in question to show it.
+
+\PrintFunctions\PrintResult.java
+-flotat print (String path)
+This method receives the path of the selected file and returns a float. 
+This method calls the Read () method of the ReadFile class and requests 
+the iterator with all the numbers contained in the file to obtain it's 
+total amount, display it per console and return the total sum.
+
+
+
+
+
